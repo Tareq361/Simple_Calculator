@@ -144,6 +144,7 @@ public  void resultButtonListener(){
 
         }
     });
+
     b_dot.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -171,6 +172,13 @@ public  void resultButtonListener(){
                 replace=replace+s.charAt(i);
             }
             view.setText(replace.toString());
+
+        }
+    });
+    b_per.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            view.setText(view.getText().toString() + "%");
 
         }
     });
