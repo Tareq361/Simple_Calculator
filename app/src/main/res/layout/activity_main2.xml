@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:layout_weight="1"
     android:orientation="vertical"
-    android:background="#e9fbe0"
+    android:background="#f1fcf1"
     >
 
     <TextView
@@ -16,6 +16,7 @@
         android:gravity="center|right"
         android:textColor="@color/black"
         android:textSize="40dp"
+        android:background="@color/white"
         ></TextView>
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +34,7 @@
             android:text="C"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/bper"
@@ -43,7 +44,8 @@
             android:text="%"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/del"
@@ -53,7 +55,8 @@
             android:text="DE"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/bdiv"
@@ -64,7 +67,8 @@
             android:text="/"
             android:textColor="#85e762"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
     </LinearLayout>
     <LinearLayout
@@ -83,7 +87,7 @@
             android:text="7"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/b08"
@@ -93,7 +97,8 @@
             android:text="8"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/b09"
@@ -103,7 +108,8 @@
             android:text="9"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/bmul"
@@ -114,7 +120,8 @@
             android:text="X"
             android:textColor="#85e762"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
     </LinearLayout>
     <LinearLayout
@@ -133,7 +140,7 @@
             android:text="4"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/b05"
@@ -143,7 +150,8 @@
             android:text="5"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/b06"
@@ -153,7 +161,8 @@
             android:text="6"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/bminus"
@@ -164,7 +173,8 @@
             android:text="-"
             android:textColor="#85e762"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
     </LinearLayout>
     <LinearLayout
@@ -183,7 +193,7 @@
             android:text="1"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/b02"
@@ -193,7 +203,8 @@
             android:text="2"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/b03"
@@ -203,7 +214,8 @@
             android:text="3"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/bplus"
@@ -214,7 +226,8 @@
             android:text="+"
             android:textColor="#85e762"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
     </LinearLayout>
     <LinearLayout
@@ -233,7 +246,7 @@
             android:text="00"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/b0"
@@ -243,7 +256,8 @@
             android:text="0"
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/bdot"
@@ -253,7 +267,8 @@
             android:text="."
             android:textColor="@color/black"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
         <Button
             android:id="@+id/bres"
@@ -264,7 +279,8 @@
             android:text="="
             android:textColor="#85e762"
             android:textSize="30dp"
-            app:backgroundTint="#e9fbe0"></Button>
+            android:layout_marginLeft="5dp"
+            app:backgroundTint="#f1fcf1"></Button>
 
     </LinearLayout>
 
